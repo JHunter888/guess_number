@@ -2,6 +2,7 @@
 # из модуля random.
 from random import randint
 
+
 def main():
     # Получаем случайное число в диапазоне от 1 до 100.
     number = randint(1, 100)
@@ -32,9 +33,6 @@ def main():
     print()
     return option
 
+
 if main() == 'y':
     main()
-
-
-    
-
